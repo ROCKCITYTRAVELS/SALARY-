@@ -46,9 +46,10 @@ const emptyEntry = () => ({ presentDays:"", collection:"", db:"", pf:"465", gf:"
 // WhatsApp helpers
 function buildWASlip(emp, entry, calc, wd, month, year) {
   const mn = MONTHS[month];
-  return `╔═══════════════════╗
+  return `
+╔═══════════════════════════╗
 ║  💼 ROCKCITY SALARY SLIP  ║
-╚═══════════════════╝
+╚═══════════════════════════╝
 
 👤 ${emp.name}
 🆔 ID: ${emp.empId}  |  📱 ${emp.mobile}
